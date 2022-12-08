@@ -1,0 +1,11 @@
+
+git config -–global user.email “fr.juillet@duoc.cl” ( guarda el correo )
+git config -–global user.name “nombretucuentagit” ( guarda la direccion de cuenta git)
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Echeverria29/municipalidadtalleres.git
+git push -u origin main
+

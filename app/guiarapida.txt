@@ -1,0 +1,12 @@
+django-admin startproject taller
+
+django-admin startapp app
+
+despues crear los models
+despues crear un urls en app tienen que haber dos uno en taller y uno en taller
+vas copiando y pegando lo que ahi en esos archivos.
+creas la pagina en app creas templates,app y dentro de app van todas las paginas
+creas los forms despues
+vas creando metodos en las vews y al ultimo se agregan a url de app al medio, se agrega el metodo
+para  la api es el comando start app
+y ir agregabdo a settings la configuracion de base de datos crispyforms etc 
