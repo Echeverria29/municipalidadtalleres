@@ -47,6 +47,7 @@ urlpatterns = [
   path('modifiadmin/<run>',modifiadmin ,name= "modifiadmin"),
   path('eliminaradmin/<run>',eliminaradmin ,name= "eliminaradmin"),
   path('listafunadmin/',listafunadmin ,name= "listafunadmin"),
+  path('listarcuentashabilitadas/',listarcuentashabilitadas ,name= "listarcuentashabilitadas"),
   path('modififunadmin/<run>',modififunadmin ,name= "modififunadmin"),
   path('eliminarfunadmin/<run>',eliminarfunadmin ,name= "eliminarfunadmin"),
   path('eliminartaller/<codigo>',eliminartaller ,name= "eliminartaller"),

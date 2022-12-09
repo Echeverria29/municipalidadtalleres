@@ -486,6 +486,14 @@ def listafunadmin(request):
     return render(request,'app/listafunadmin.html',datos)
 
 #LISTAR DATOS PARA EL ADMIN
+def listarcuentashabilitadas(request):
+    
+   
+    return render(request,'app/listarcuentashabilitadas.html')
+
+
+
+#LISTAR DATOS PARA EL ADMIN
 def listacuentahabi(request):
     
     usuarioall4 = Usuariofuncionario.objects.all()
